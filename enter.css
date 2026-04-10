@@ -43,10 +43,12 @@ li{
 }
 
 img{
-   border-radius: 20%;
-    display: inline;
-    width: 500px;
-    height: 300px;
+    width: 500px; 
+    height: 300px;    
+    border-radius: 20%;
+    display: block; 
+    margin: 20px auto;
+
 }
 footer{ 
     background: linear-gradient(135deg, #000428, #450b7c); 
@@ -68,9 +70,12 @@ table ,td,tr{
     font-size: 22px;
 }
 table{
-    margin: auto;
-    margin-top:50px;
+    width: 95%;   
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse; 
 }
+
 table th{
     border-color: aliceblue;
     background: linear-gradient(135deg, #000428, #450b7c); 
@@ -133,5 +138,5 @@ section p {
 }
 #img2 img{
     border-radius: 40%;
-    align-items: ;
 }
+
