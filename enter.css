@@ -72,10 +72,15 @@ table ,td,tr{
     font-size: 22px;
 }
 table{
-    width: 95%;   
-    max-width: 800px;
-    margin: 20px auto;
-    border-collapse: collapse; 
+    margin: auto;
+    margin-top:50px;
+    width: 100%;
+    min-width: 600px; 
+}
+.table-container{
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
 }
 
 table th{
