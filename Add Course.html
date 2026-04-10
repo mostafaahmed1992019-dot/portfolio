@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="enter.css">
+    <title>Add Course</title>
+</head>
+<body>
+   <header>
+      <h2>Add Course</h2>
+        <nav><ul>
+          <li><a href="index.html">Home</a></li> 
+          <li><a href="My Courses.html">My Courses</a></li>
+          <li><a href="Add Course.html">Add Course</a></li>
+          <li><a href="Contact Us.html">Contact Us</a></li> 
+       </ul></nav>
+   </header>
+    <main>
+        <section>
+         <h2>Choose The Courses</h2> 
+   <form> 
+    <div class="course"><label for="course">Course:</label>
+       <select id="course" name="course" >
+            <option value="Internet Technology">Internet Technology</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="pl">pl</option>
+            <option value="Math2">Math 2</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Statistics">Statistics</option>
+       </select>
+    </div>
+
+    <div class="instructor"><label for="instructor">Instructor:</label>
+        <select id="instructor" name="instructor" >
+            <option value="1">Dr/Aya abdelrahman</option>
+            <option value="2">Dr/amr ghoniem</option>
+            <option value="3">Dr/amr sameh</option>
+            <option value="4">Dr/abdeltawab Mahmoud</option>
+            <option value="5">Dr/Azza</option>
+            <option value="6">Dr/Eman farag</option>
+       </select>
+    </div>
+    
+    <div class="hours"><label for="hours">Hours:</label>
+    <select id="hours" name="hours" >
+            <option value="time1">3</option>
+            <option value="time2">4</option>
+            <option value="time3">3</option>
+            <option value="time4">3</option>
+            <option value="time5">5</option>
+            <option value="time6">2</option>
+       </select>
+    </div>
+
+    <div class="notes"><p>Notes:</p>
+    <textarea name="Notes" type="text" id="notes" placeholder="For Any Notes"></textarea> </div>
+
+    <input type="submit" id="send" value="submit" >
+   </form>
+        </section>
+    </main> 
+</body>
+</html>
